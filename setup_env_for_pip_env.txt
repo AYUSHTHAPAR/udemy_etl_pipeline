@@ -1,0 +1,42 @@
+Microsoft Windows [Version 10.0.19045.4894]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DELL>where python
+C:\Users\DELL\AppData\Local\Programs\Python\Python312\python.exe
+C:\Users\DELL\AppData\Local\Microsoft\WindowsApps\python.exe
+
+C:\Users\DELL>cd C:\Users\DELL\snowflkae_to_jupy
+
+C:\Users\DELL\snowflkae_to_jupy>pipenv shell --python  C:\Users\DELL\AppData\Local\Programs\Python\Python312\python.exe
+
+C:\Users\DELL\snowflkae_to_jupy>pipenv shell
+
+(snowflkae_to_jupy-z2ll3cYg) C:\Users\DELL\snowflkae_to_jupy>pip list
+Package                    Version
+-------------------------- ---------
+asn1crypto                 1.5.1
+certifi                    2024.8.30
+cffi                       1.17.1
+charset-normalizer         3.3.2
+cryptography               43.0.1
+filelock                   3.16.1
+idna                       3.10
+packaging                  24.1
+pip                        24.2
+platformdirs               4.3.6
+pycparser                  2.22
+PyJWT                      2.9.0
+pyOpenSSL                  24.2.1
+pytz                       2024.2
+requests                   2.32.3
+snowflake-connector-python 3.12.2
+sortedcontainers           2.4.0
+tomlkit                    0.13.2
+typing_extensions          4.12.2
+urllib3                    2.2.3
+
+(snowflkae_to_jupy-z2ll3cYg) C:\Users\DELL\snowflkae_to_jupy>pip install pandas
+
+(snowflkae_to_jupy-z2ll3cYg) C:\Users\DELL\snowflkae_to_jupy>pip install jupyter
+
+(snowflkae_to_jupy-z2ll3cYg) C:\Users\DELL\snowflkae_to_jupy>jupyter notebook
